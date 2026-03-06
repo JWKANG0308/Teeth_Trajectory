@@ -1,4 +1,3 @@
-# src/mesh_ops.py
 import numpy as np
 from scipy.spatial import cKDTree
 from .utils import _safe_int_key
