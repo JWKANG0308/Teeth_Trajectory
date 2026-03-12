@@ -40,6 +40,10 @@ Stage 0 produces:
 - Reduces only severe near-collisions without iterative freezing
 - **Does not modify the final step** (final reached)
 
+## output sample:
+
+![TAAP Samples](assets/taap_samples.png)
+
 ---
 
 
