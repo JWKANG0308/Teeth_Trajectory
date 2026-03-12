@@ -42,7 +42,7 @@ Stage 0 produces:
 
 ## output sample:
 
-![TAAP Samples](assets/taap_samples.png)
+![TAAP Samples](stage0_output/1(traj_5 version).mp4)
 
 ---
 
