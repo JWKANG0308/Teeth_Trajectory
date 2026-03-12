@@ -42,27 +42,4 @@ Stage 0 produces:
 
 ---
 
-## Repository layout
 
-###Recommended structure for a single repo containing both Stage 0 and upcoming Stage 1:
-
-###trajectory_synthesis/ # Stage 0 (currently available)
-###generate_pseudo_staging.py # Ori → Final → pseudo steps (multi-traj + extraction + light collision)
-###evaluate_collision.py # collision matrix / heatmaps / margin suggestion
-###render_trajectory.py # render step_*.stl to mp4/gif (optional)
-###registration.py # kabsch + icp + slerp
-###schedule.py # per-tooth schedule sampling
-###collision_light.py # light collision damping
-###mesh_ops.py # tooth vertex/face mapping helpers
-###utils.py # I/O + small utilities
-
-###diffusion/ # Stage 1 (planned)
-###datasets/
-###models/
-###train.py
-###infer.py
-###configs/
-###scripts/
-###run_stage0_generate.sh
-###run_stage0_eval.sh
-###run_stage0_render.sh
