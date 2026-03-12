@@ -25,7 +25,7 @@ echo "  JAW=${JAW}"
 echo "  NUM_STEPS=${NUM_STEPS}"
 echo "  NUM_TRAJ=${NUM_TRAJ}"
 
-python -m preprocess.generate_pseudo_staging \
+python -m trajectory_synthesis.generate_pseudo_staging \
   --case_dir "${CASE_DIR}" \
   --jaw "${JAW}" \
   --num_steps "${NUM_STEPS}" \
