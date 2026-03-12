@@ -20,7 +20,6 @@ Given:
 Stage 0 produces:
 - multiple pseudo trajectories (`traj_XX/step_YYY.stl`)
 - `poses.json` metadata (per-tooth pose per step)
-- collision evaluation summaries + heatmaps (optional)
 
 ---
 
@@ -37,7 +36,7 @@ Stage 0 produces:
 - Detects extracted teeth via **pre-only tooth IDs**
 - Removes corresponding faces after an early step (configurable)
 
-### 4) Light collision damping (gentle, 1-pass)
+### 4) Light collision damping
 - Reduces only severe near-collisions without iterative freezing
 - **Does not modify the final step** (final reached)
 
