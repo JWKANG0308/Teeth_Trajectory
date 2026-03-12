@@ -49,4 +49,4 @@ if [[ "${MAKE_HEATMAPS}" == "yes" ]]; then
   ARGS+=(--save_heatmaps)
 fi
 
-python -m preprocess.evaluate_collision "${ARGS[@]}"
+python -m trajectory_synthesis.evaluate_collision "${ARGS[@]}"
