@@ -34,4 +34,4 @@ if [[ -n "${OUT_CSV}" ]]; then
   ARGS+=(--suggest_out_csv "${OUT_CSV}")
 fi
 
-python -m preprocess.evaluate_collision "${ARGS[@]}"
+python -m trajectory_synthesis.evaluate_collision "${ARGS[@]}"
