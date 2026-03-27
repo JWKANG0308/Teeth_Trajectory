@@ -9,6 +9,11 @@ To enable model training, we first synthesize **pseudo intermediate trajectories
 
 ---
 
+
+## output sample:
+
+[![TAAP Samples](stage0_output/1(traj_5 version).mp4)](https://github.com/user-attachments/assets/9dc195e6-fab1-4067-a515-74c1a07615b5)
+
 ## Why pseudo-staging matters (Stage 0)
 Real intermediate tooth poses are often missing. Stage 0 generates **pseudo supervision** to support downstream learning.
 
@@ -40,9 +45,6 @@ Stage 0 produces:
 - Reduces only severe near-collisions without iterative freezing
 - **Does not modify the final step** (final reached)
 
-## output sample:
-
-[![TAAP Samples](stage0_output/1(traj_5 version).mp4)](https://github.com/user-attachments/assets/9dc195e6-fab1-4067-a515-74c1a07615b5)
 
 ---
 
